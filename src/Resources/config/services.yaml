@@ -1,0 +1,10 @@
+services:
+  _defaults:
+    autowire: true
+
+  IvankoTut\ExceptionJsonResponse\EventListener\ExceptionListener:
+    arguments:
+      $config: '%exception_json_response.config%'
+      $serializer: '@serializer'
+    tags:
+      - { name: kernel.event_listener, event: kernel.exception }

@@ -1,0 +1,22 @@
+{
+    "name": "ivankotut/exception-json-response",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivan Kondratiev",
+            "email": "ivankotut@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "symfony/http-kernel": "6.1.*",
+        "symfony/serializer": "6.1.*",
+        "symfony/options-resolver": "6.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "IvankoTut\\ExceptionJsonResponse\\": "src/"
+        }
+    }
+}
