@@ -8,6 +8,7 @@
             "email": "ivankotut@gmail.com"
         }
     ],
+    "minimum-stability": "stable",
     "require": {
         "php": ">=8.1",
         "symfony/http-kernel": "6.1.*",
